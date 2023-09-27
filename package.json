@@ -12,7 +12,6 @@
     "prepublishOnly": "npm run tsc"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2"
@@ -20,5 +19,7 @@
   "dependencies": {
     "@types/is-empty": "^1.2.1",
     "is-empty": "^1.2.0"
-  }
+  },
+  "repository": "https://github.com/Adraheem/axios-fetch",
+  "author": "Raheem Adebayo <adraheemzy@gmail.com> (https://github.com/Adraheem)"
 }
