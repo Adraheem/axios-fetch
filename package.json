@@ -1,18 +1,19 @@
 {
   "name": "@adraheem/axios-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/types/types.d.ts",
   "files": [
     "lib/"
   ],
   "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublishOnly": "npm run tsc"
+    "tsc": "npm run clean && tsc -p tsconfig.json",
+    "prepublishOnly": "npm run tsc",
+    "clean": "rimraf lib"
   },
-  "keywords": [],
-  "license": "ISC",
+  "keywords": ["axios", "next", "fetch", "cache"],
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.2.2"
   },
