@@ -21,7 +21,7 @@ Here's an example:
 ```javascript
 import axiosFetch from "@adraheem/axios-fetch";
 
-const instance = MyNodeModule.create({
+const instance = axiosFetch.create({
   baseUrl: 'https://api.example.com',
   headers: {
     'Authorization': 'Bearer YOUR_ACCESS_TOKEN',
