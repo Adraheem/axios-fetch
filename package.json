@@ -1,9 +1,9 @@
 {
   "name": "@adraheem/axios-next",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/index.js",
-  "types": "./lib/types/types.d.ts",
+  "types": "./lib/types.d.ts",
   "files": [
     "lib/"
   ],

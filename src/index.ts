@@ -3,7 +3,7 @@ import {
   FetchResponsePromise,
   FetchWithGetMethod,
   InstanceConfig
-} from "../types/types";
+} from "./types";
 import isEmpty from "is-empty";
 
 class AxiosFetch {

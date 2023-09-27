@@ -1,4 +1,4 @@
-import { FetchOptions, FetchResponsePromise, FetchWithGetMethod, InstanceConfig } from "../types/types";
+import { FetchOptions, FetchResponsePromise, FetchWithGetMethod, InstanceConfig } from "./types";
 declare class AxiosFetch {
     private readonly baseUrl;
     private readonly defaultHeaders;
